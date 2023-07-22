@@ -97,9 +97,9 @@ img {
 }
 
 .card-footer {
-  padding: 12px 5px;
+  padding: 12px 3px;
   display: grid;
-  gap: 10px;
+  gap: 5px;
   grid-template-columns: auto auto;
   align-items: center;
   font-size: smaller;
@@ -125,6 +125,10 @@ img {
 
 .card-footer > button:focus {
   outline: 1px solid rgb(201, 132, 250);
+}
+
+.contact {
+  padding: 20px 0;
 }
 
 .contact > h2 {
