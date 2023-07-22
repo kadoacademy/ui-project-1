@@ -1,0 +1,171 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  transition: all;
+}
+
+header {
+  background-color: rgb(143, 7, 239);
+}
+
+nav {
+  max-width: 800px;
+  margin: auto;
+  color: white;
+  padding: 20px 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 18px;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+p {
+  font-weight: 400;
+  font-size: larger;
+  color: #647464;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.home-images {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+
+.home-images > div {
+  background-color: rgb(243, 230, 252);
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgb(241, 237, 237);
+}
+
+.home-images > div > img {
+  background-color: rgb(253, 253, 157);
+}
+
+.card-footer {
+  padding: 12px 5px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  align-items: center;
+  font-size: smaller;
+}
+
+.card-footer > div {
+  background-color: aliceblue;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.card-footer > button {
+  background-color: rgb(143, 7, 239);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.card-footer > button:focus {
+  outline: 1px solid rgb(201, 132, 250);
+}
+
+.contact > h2 {
+  border-bottom: 3px solid rgb(250, 145, 145);
+  width: fit-content;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  width: 100%;
+  margin: 7px 0;
+  padding: 9px 18px;
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  outline: 2px solid rgb(196, 196, 253);
+}
+
+.submit-btn {
+  width: 30%;
+  background-color: rgb(143, 7, 239);
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 20px 10px;
+  background: rgb(143, 7, 239);
+  text-align: center;
+}
+
+footer > p {
+  color: white;
+}
